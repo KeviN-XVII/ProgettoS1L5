@@ -111,11 +111,14 @@ button:hover {
   margin: 0;
 }
 /* div contententi immagini e testo */
+.centrale {
+  text-align: center;
+}
 .totdiv {
   display: inline-block;
-  width: 28%;
+  width: 20%;
   border: #dee1e3 1px solid;
-  margin: 40px 30px;
+  margin: 100px 50px;
   text-align: center;
 }
 .totdiv p {
