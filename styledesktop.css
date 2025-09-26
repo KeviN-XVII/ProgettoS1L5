@@ -1,0 +1,172 @@
+/* Stile per il body */
+body {
+  display: block;
+  margin: 0 auto;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  font-family: "Open Sans", sans-serif;
+}
+/* Stile per l'header e logo */
+header {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+#logo {
+  width: 150px;
+  padding: 22px 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  color: #25a2c3;
+  line-height: 1.5;
+}
+/* stile contenitore con immagine background */
+.contenitore1 {
+  background-image: url(./assets/images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px 60px 100px 60px;
+  text-align: center;
+}
+.contenitore1 h1 {
+  padding: auto;
+}
+.contenitore1 p {
+  padding: 0px 10px;
+}
+.contenitore1 button {
+  background-color: #f04c2f;
+  color: white;
+  width: 150px;
+  height: 44px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin-top: 30px;
+}
+button:hover {
+  background-color: #c4442d;
+  cursor: pointer;
+}
+/* stile per i div centrali e immagine */
+/* div generale  */
+.centro {
+  text-align: center;
+  margin: 70px 100px;
+}
+/* div testi */
+.divcentro {
+  display: block;
+  text-align: left;
+  margin: 30px 15px;
+}
+/* immagine  */
+#notebook {
+  float: left;
+  text-align: center;
+  width: 30%;
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-top: 90px;
+  margin-left: 17%;
+  margin-right: 30px;
+}
+.divcentro h3 {
+  font-size: 1.1em;
+}
+/* stile per il div con background color arancione */
+.garanzia {
+  text-align: center;
+  background-color: #f04c2f;
+  margin: 0 auto;
+  color: white;
+  padding: 40px 15px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.garanzia h2 {
+  color: white;
+}
+.garanzia p {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9em;
+  font-style: italic;
+}
+.garanzia #garanzia-autore {
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 0.9em;
+  margin: 0;
+}
+.garanzia #garanzia-titolo {
+  font-size: 0.7em;
+  margin: 0;
+}
+/* div contententi immagini e testo */
+.totdiv {
+  display: inline-block;
+  width: 28%;
+  border: #dee1e3 1px solid;
+  margin: 40px 30px;
+  text-align: center;
+}
+.totdiv p {
+  display: inline-block;
+  padding: 5px 5px 30px;
+  margin-bottom: 0px;
+}
+.totdiv h4 {
+  margin: 0 auto;
+}
+.totdiv img {
+  width: 100%;
+  height: 230px;
+}
+/* footer */
+footer {
+  background-color: #25a2c3;
+  text-align: center;
+  font-size: 0.8em;
+  color: hsl(0, 0%, 100%);
+  margin: 30px 0;
+}
+footer h2 {
+  padding-top: 30px;
+  color: white;
+}
+ul {
+  padding: 0;
+  align-items: center;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer p {
+  padding: 50px 0;
+}
+/* icone contatti */
+i {
+  padding-right: 5px;
+}
+/* copyright */
+#copyright {
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.911);
+}
+/* linea di separazione */
+hr {
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  width: 20%;
+  text-align: center;
+  margin-top: 30px;
+}
