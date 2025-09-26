@@ -60,7 +60,7 @@ button:hover {
 /* div generale  */
 .centro {
   text-align: center;
-  margin: 70px 100px;
+  margin: 100px 100px;
 }
 /* div testi */
 .divcentro {
@@ -72,12 +72,12 @@ button:hover {
 #notebook {
   float: left;
   text-align: center;
-  width: 30%;
-  border-radius: 50%;
+  width: 22%;
+  border-radius: 80%;
   margin-left: 20%;
-  margin-top: 90px;
+  margin-top: 80px;
   margin-left: 17%;
-  margin-right: 30px;
+  margin-right: 80px;
 }
 .divcentro h3 {
   font-size: 1.1em;
